@@ -33,7 +33,7 @@ retcode_t mam_example_channel_create(mam_api_t *const api, tryte_t *const channe
     mam_channel_t *channel = &api->channels->value;
     trits_to_trytes(trits_begin(mam_channel_id(channel)), channel_id, NUM_TRITS_ADDRESS);
   }
-  printf("Adress: %s\n",channel_id);
+  fprintf(stderr,"\nAddress: %s \n",channel_id);
   /*fprintf(stderr, "\nAddress: ");
   for (size_t i = 0; i < FLEX_TRIT_SIZE_243; i++) {
     fprintf(stderr, "%c", channel_id[i]);
