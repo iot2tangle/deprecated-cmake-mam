@@ -40,6 +40,7 @@ int main(int ac, char **av) {
   }
 
   // Creating channel
+  memset(channel_id, 0, MAM_CHANNEL_ID_TRYTE_SIZE+1);
   if ((ret = mam_example_channel_create(&api, channel_id)) != RC_OK) {
     fprintf(stderr, "mam_example_channel_create failed with err %d\n", ret);
     return EXIT_FAILURE;
