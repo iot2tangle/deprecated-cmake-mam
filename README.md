@@ -1,6 +1,6 @@
 # IOT2TANGLE Cmake based Entangled MAM Library
 
-The following repo allows to build Entangled MAM examples to send and receive messages via the new MAM Protocol using Cmake instead of Bazel. The main reason to port from Bazel to Cmake is portability: Bazel does not perform very well on IoT devices (it does not even provides an installer for Raspberry Pi3B). 
+The following repo allows to build Entangled MAM examples to send and receive messages via the new MAM Protocol using Cmake instead of Bazel. The main reason to transition from Bazel to Cmake is portability: Bazel does not perform very well on IoT devices (it does not even provide an installer for Raspberry Pi3B). 
 
 ## Why do we need this?
 Since IOT2TANGLE requires us to build code to send data over MAM2 on different IoT devices, a build system that can run on SoCs such as ESP32, STM32, etc. was needed to compile the needed code. Cmake allows us to do so while keeping a clear relation with Entangled modifications. 
