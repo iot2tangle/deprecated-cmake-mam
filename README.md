@@ -39,6 +39,7 @@ To fetch a given message we use the recv program and pass node, port and Bundle 
 ## Final comments
 This is a work in progress and requires a lot of work to clean up unneeded dependencies being included by Bazel that have an impact on the binaries size. As we publish this code the send-msg script is 1.2MB (aroung 1MB when built optimized). Because some IoT devices have 1MB of Flash memory the size of this binaries needs to be reduced. 
 
+-------------------------------------------------------
 
 ## IOTA Entangled Monorepo
 [![Build status](https://badge.buildkite.com/42ef0512276a270bd34cb0010fd641558b344dab4aa2225fba.svg)](https://buildkite.com/iota-foundation/entangled)
