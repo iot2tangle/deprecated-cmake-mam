@@ -17,7 +17,7 @@ cd cmake-mam
 cmake .
 make
 ```
-Once the build is done, you can seek for the send-msg and recv executables inside mam folder. 
+Once the build is done, you can seek for the send-msg and recv executables **inside mam folder**. 
 To send a message (be sure to use nodes without SSL and do not include the http://): 
 
 ```
