@@ -5,6 +5,8 @@ https://github.com/iotaledger/entangled
 Refer to the LICENSE file for licensing information
 ]]
 
+set(CMAKE_BUILD_TYPE MinSizeRel)
+
 # external libraries
 include(../cmake/cjson.cmake)
 include(../cmake/http_parser.cmake)
