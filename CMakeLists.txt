@@ -19,6 +19,8 @@ enable_language(C)
 enable_language(CXX)
 enable_testing()
 
+set(CMAKE_BUILD_TYPE MinSizeRel)
+
 set(THREADS_PREFER_PTHREAD_FLAG ON)
 find_package(Threads REQUIRED)
 
